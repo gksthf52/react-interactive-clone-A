@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21b39589.css",
+    "main.js": "/static/js/main.bcb7ba15.js",
+    "static/media/NanumSquareNeo-Variable.ttf": "/static/media/NanumSquareNeo-Variable.7e8297962f234fc4aa4b.ttf",
+    "static/media/Ojuju[wght].ttf": "/static/media/Ojuju[wght].f8a5899c156d38a0fcb7.ttf",
+    "index.html": "/index.html",
+    "main.21b39589.css.map": "/static/css/main.21b39589.css.map",
+    "main.bcb7ba15.js.map": "/static/js/main.bcb7ba15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21b39589.css",
+    "static/js/main.bcb7ba15.js"
+  ]
+}
