@@ -47,7 +47,8 @@ const TCanvas = ({ scroll = false }: CanvasProps) => {
           near: 0.1,
           far: 2000,
         }}
-        dpr={window.devicePixelRatio}>
+        dpr={window.devicePixelRatio}
+      >
         {/* object */}
         <Suspense fallback={null}>
           <ImagePlane imageUrl="https://cdn.pixabay.com/photo/2016/11/20/09/09/white-1842315_1280.jpg" />

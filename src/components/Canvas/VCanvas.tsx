@@ -50,7 +50,8 @@ const VCanvas = ({ scroll = false }: CanvasProps) => {
       >
         {/* object https://www.scalvinimarmi.it/site/assets/files/1047/loop_hd.mp4 */}
         <Suspense fallback={null}>
-          <VideoPlane url="/video/loop_hd.mp4" />
+          {/* <VideoPlane url="/video/loop_hd.mp4" /> */}
+          <VideoPlane url={process.env.PUBLIC_URL + "/video/loop_hd.mp4"} />
         </Suspense>
 
         {/* effect */}

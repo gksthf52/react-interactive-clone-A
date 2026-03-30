@@ -77,7 +77,8 @@ const HomeHero = () => {
     const canvasImg = new Image();
 
     canvasImg.crossOrigin = "Anonymous";
-    canvasImg.src = "../images/img-middle.png";
+    // canvasImg.src = "../images/img-middle.png";
+    canvasImg.src = process.env.PUBLIC_URL + "/images/img-middle.png";
 
     canvasImg.onload = () => {
       const ImgW = canvasImg.width;

@@ -34,11 +34,14 @@ const Ripple: VFC<RippleType> = (props) => {
 
   const shaderRef = useRef<any>(null);
 
-  const rippleTexture = useTexture(publicPath("textures/brush.png"));
-  const effect = useMemo(() => new RippleRenderer(rippleTexture), [rippleTexture]);
+  const rippleTexture = useTexture(publicPath("/textures/brush.png"));
+  const effect = useMemo(
+    () => new RippleRenderer(rippleTexture),
+    [rippleTexture],
+  );
   const effectScroll = useMemo(
     () => new RippleScrollRenderer(rippleTexture),
-    [rippleTexture]
+    [rippleTexture],
   );
 
   const shader = useMemo(() => {

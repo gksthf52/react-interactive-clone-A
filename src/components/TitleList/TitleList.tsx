@@ -61,7 +61,8 @@ export default function Page() {
             <div className={cx("item", "left")}>Givenchy</div>
             <div className={cx("item", "right")}>
               <img
-                src="../../images/img-title-01.svg"
+                // src="../../images/img-title-01.svg"
+                src={process.env.PUBLIC_URL + "/images/img-title-01.svg"}
                 alt="Calvin Klein"
                 className={cx("image")}
               />
@@ -70,7 +71,8 @@ export default function Page() {
           <div className={cx("title_item")}>
             <div className={cx("item", "left")}>
               <img
-                src="../../images/img-title-02.svg"
+                // src="../../images/img-title-02.svg"
+                src={process.env.PUBLIC_URL + "/images/img-title-02.svg"}
                 alt="PRADA"
                 className={cx("image")}
               />
@@ -81,7 +83,8 @@ export default function Page() {
             <div className={cx("item", "left")}>Mert & Marcus</div>
             <div className={cx("item", "right")}>
               <img
-                src="../../images/img-title-03.svg"
+                // src="../../images/img-title-03.svg"
+                src={process.env.PUBLIC_URL + "/images/img-title-03.svg"}
                 alt="ZARA"
                 className={cx("image")}
               />
@@ -90,7 +93,8 @@ export default function Page() {
           <div className={cx("title_item")}>
             <div className={cx("item", "left")}>
               <img
-                src="../../images/img-title-04.jpg"
+                // src="../../images/img-title-04.jpg"
+                src={process.env.PUBLIC_URL + "/images/img-title-04.jpg"}
                 alt="Coach"
                 className={cx("image")}
               />
@@ -105,7 +109,8 @@ export default function Page() {
             <div className={cx("item", "left")}>Viviane Sassen</div>
             <div className={cx("item", "right")}>
               <img
-                src="../../images/img-title-05.svg"
+                // src="../../images/img-title-05.svg"
+                src={process.env.PUBLIC_URL + "/images/img-title-05.svg"}
                 alt="Dior"
                 className={cx("image")}
               />
@@ -114,7 +119,9 @@ export default function Page() {
           <div className={cx("title_item")}>
             <div className={cx("item", "left")}>
               <img
-                src="../../images/img-title-06.svg"
+                // src="../../images/img-title-06.svg"
+
+                src={process.env.PUBLIC_URL + "/images/img-title-06.svg"}
                 alt="Vogue"
                 className={cx("image")}
               />
@@ -125,7 +132,8 @@ export default function Page() {
             <div className={cx("item", "left")}>Augustinus Bader</div>
             <div className={cx("item", "right")}>
               <img
-                src="../../images/img-title-07.svg"
+                // src="../../images/img-title-07.svg"
+                src={process.env.PUBLIC_URL + "/images/img-title-07.svg"}
                 alt="ADIDAS"
                 className={cx("image")}
               />
@@ -139,7 +147,8 @@ export default function Page() {
             <div className={cx("item", "left")}>Willy Vanderperre</div>
             <div className={cx("item", "right")}>
               <img
-                src="../../images/img-title-08.svg"
+                // src="../../images/img-title-08.svg"
+                src={process.env.PUBLIC_URL + "/images/img-title-08.svg"}
                 alt="BOSS"
                 className={cx("image")}
               />
@@ -148,7 +157,8 @@ export default function Page() {
           <div className={cx("title_item")}>
             <div className={cx("item", "left")}>
               <img
-                src="../../images/img-title-09.svg"
+                // src="../../images/img-title-09.svg"
+                src={process.env.PUBLIC_URL + "/images/img-title-09.svg"}
                 alt="MAC"
                 className={cx("image")}
               />
@@ -159,7 +169,8 @@ export default function Page() {
             <div className={cx("item", "left")}>Ilia Beauty</div>
             <div className={cx("item", "right")}>
               <img
-                src="../../images/img-title-10.svg"
+                // src="../../images/img-title-10.svg"
+                src={process.env.PUBLIC_URL + "/images/img-title-10.svg"}
                 alt="TBWA"
                 className={cx("image")}
               />
@@ -168,7 +179,8 @@ export default function Page() {
           <div className={cx("title_item")}>
             <div className={cx("item", "left")}>
               <img
-                src="../../images/img-title-11.svg"
+                // src="../../images/img-title-11.svg"
+                src={process.env.PUBLIC_URL + "/images/img-title-11.svg"}
                 alt="CLINIQUE"
                 className={cx("image")}
               />
@@ -183,7 +195,8 @@ export default function Page() {
             <div className={cx("item", "left")}>Dan Jackson</div>
             <div className={cx("item", "right")}>
               <img
-                src="../../images/img-title-12.svg"
+                // src="../../images/img-title-12.svg"
+                src={process.env.PUBLIC_URL + "/images/img-title-12.svg"}
                 alt="INSTAGRAM"
                 className={cx("image")}
               />
@@ -192,7 +205,8 @@ export default function Page() {
           <div className={cx("title_item")}>
             <div className={cx("item", "left")}>
               <img
-                src="../../images/img-title-13.svg"
+                // src="../../images/img-title-13.svg"
+                src={process.env.PUBLIC_URL + "/images/img-title-13.svg"}
                 alt="GRAFF"
                 className={cx("image")}
               />
