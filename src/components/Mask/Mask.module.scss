@@ -1,0 +1,42 @@
+.mask_wrap {
+  text-align: center;
+}
+
+.mask_row {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+
+  &.flow-left {
+    .mask_item {
+      animation: marquee-l 12s linear infinite;
+    }
+  }
+}
+
+.mask_item {
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 7vw;
+  font-weight: 600;
+  letter-spacing: -0.3vw;
+  line-height: 1.2;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes marquee-l {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
